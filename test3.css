@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./pic/Earth-Below-Brian-W-Berry.webp);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.616) ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.616) ;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.person{
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 0 3px 3px 0 ;
+    color: white;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 7px;
+    margin-left: -10px;
+}
+
+.inter{
+    color: white;
+    font-size: large;
+    font-weight: 900;
+}
+
+.name{
+    width: 400px;
+    height: 35px;
+    text-align: end;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.lock{
+    background-color: gray;
+    border: 1px solid white;
+    border-radius: 0 3px 3px 0 ;
+    color: white;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 7px;
+    margin-left: -10px;
+}
+.pass{
+    width: 400px;
+    height: 35px;
+    text-align: end;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.btn{
+    width: 435px;
+    height: 35px;
+    background-color: rgb(67, 209, 67);
+    color: white;
+    border: 1px solid rgb(67, 209, 67);
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.hes{
+    font-weight: 900;
+    color: white;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.sabt{
+    font-weight: 900;
+    font-size: large;
+}
